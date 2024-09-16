@@ -9,7 +9,7 @@
  */
 import { PortableText, type PortableTextReactComponents } from 'next-sanity'
 
-import styles from './PostBody.module.css'
+import styles from '../css/PostBody.module.css'
 import { SanityImage } from './SanityImage'
 
 const myPortableTextComponents: Partial<PortableTextReactComponents> = {

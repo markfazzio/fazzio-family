@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --jacqui-green: #059669;
+}
+
+.jacqui-green {
+  background-color: var(--jacqui-green);
+}

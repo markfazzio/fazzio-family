@@ -1,0 +1,60 @@
+{
+  "name": "Fazzio",
+  "crestImageUrl": "/images/bencivenga-crest.png",
+  "generations": [
+    {
+      "generation": 1,
+      "members": [
+        {
+          "id": 1,
+          "firstName": "Ruth",
+          "lastName": "Bencivenga",
+          "maidenName": "Shnedden",
+          "husband": 2
+        },
+        {
+          "id": 2,
+          "firstName": "Enrico",
+          "lastName": "Bencivenga",
+          "wife": 1
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "members": [
+        {
+          "id": 3,
+          "firstName": "Susan",
+          "lastName": "Bencivenga",
+          "maidenName": "Jacques",
+          "husband": 2
+        },
+        {
+          "id": 4,
+          "firstName": "Enrico (Harry)",
+          "lastName": "Bencivenga",
+          "wife": 3
+        },
+        {
+          "id": 5,
+          "firstName": "Ruth",
+          "lastName": "Bencivenga"
+        },
+        {
+          "id": 6,
+          "firstName": "Wanda",
+          "lastName": "Pellek",
+          "maidenName": "Bencivenga",
+          "wife": 3
+        },
+        {
+          "id": 6,
+          "firstName": "Michael",
+          "lastName": "Bencivenga",
+          "wife": 3
+        }
+      ]
+    }
+  ]
+}

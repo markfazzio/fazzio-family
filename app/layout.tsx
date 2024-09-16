@@ -1,4 +1,5 @@
-import 'tailwindcss/tailwind.css'
+import { NextUIProvider } from '@nextui-org/react'
+import '../css/main.css'
 
 export default function RootLayout({
   children,
@@ -7,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <NextUIProvider>
+        <body>{children}</body>
+      </NextUIProvider>
     </html>
   )
 }

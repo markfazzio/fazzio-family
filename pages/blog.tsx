@@ -1,4 +1,4 @@
-import HomePage from 'components/page-templates/HomePage'
+import IndexPage from 'components/page-templates/IndexPage'
 import PreviewIndexPage from 'components/page-templates/PreviewIndexPage'
 import { readToken } from 'lib/sanity.api'
 import { getAllPosts, getClient, getSettings } from 'lib/sanity.client'
@@ -22,7 +22,7 @@ export default function Page(props: PageProps) {
     return <PreviewIndexPage posts={posts} settings={settings} />
   }
 
-  return <HomePage posts={posts} settings={settings} />
+  return <IndexPage posts={posts} settings={settings} />
 }
 
 export const getStaticProps: GetStaticProps<PageProps, Query> = async (ctx) => {

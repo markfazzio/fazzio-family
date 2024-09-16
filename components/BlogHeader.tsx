@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { PortableText } from 'next-sanity'
 
-import styles from './BlogHeader.module.css'
+import styles from '../css/BlogHeader.module.css'
 
 export default function BlogHeader({
   title,
