@@ -15,7 +15,6 @@
     "singleQuote": true
   },
   "dependencies": {
-    "@ericz1803/react-google-calendar": "^4.3.2",
     "@nextui-org/react": "^2.4.6",
     "@sanity/client": "6.20.1",
     "@sanity/image-url": "1.0.2",
@@ -28,6 +27,7 @@
     "classnames": "2.5.1",
     "clsx": "^2.1.1",
     "date-fns": "3.6.0",
+    "embla-carousel-autoplay": "^8.3.0",
     "embla-carousel-react": "^8.3.0",
     "framer-motion": "^11.5.4",
     "intl-segmenter-polyfill": "0.4.4",
@@ -36,6 +36,7 @@
     "next-sanity-image": "6.1.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-google-calendar-api": "^2.3.0",
     "react-organizational-chart": "^2.2.1",
     "sanity": "3.47.1",
     "sanity-plugin-asset-source-unsplash": "3.0.1",
